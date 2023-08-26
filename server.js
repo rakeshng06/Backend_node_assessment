@@ -50,7 +50,6 @@ app.post("/insert/order-service", (req, res) => {
   );
 });
 
-
 app.post("/update/order-service", (req, res) => {
   let identifier = req.body.identifier;
   let new_quantity = req.body.new_quantity;
